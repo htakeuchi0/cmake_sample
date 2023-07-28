@@ -1,2 +1,2 @@
-add_executable(a.out main.cc)
-target_link_libraries(a.out csample)
+add_executable(cmsample main.cc)
+target_link_libraries(cmsample csample)
