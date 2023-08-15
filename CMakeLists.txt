@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.0)
-project(cmake_sample CXX)
+project(cmake_sample VERSION 0.0.1 LANGUAGES CXX)
 
 add_subdirectory(src)
 add_subdirectory(test)
 add_subdirectory(main)
+add_subdirectory(include)
 
 find_program(DOXYGEN doxygen)
 if (NOT DOXYGEN)
